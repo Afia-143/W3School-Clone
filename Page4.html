@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> HTML Lists and Table Tags </title>
+    </head>
+    <body style="background-color: #22223b; overflow-x: hidden;">
+    <img src="C:/Users/Rxpredator/Desktop/w3school/w3logo.png" alt="w3Schools" width="100"
+        style="display:block; margin: auto;">
+    <hr>
+    <pre
+        style="color: white;">HTML     CSS     JS     SQL     PYTHON     JAVA     PHP     C++     EXCEL     DJANGO     BOOTSTRAP     REACT     JQUERY     NODEJS     ANGULAR     NUMP     MONGODB     </pre>
+    <br>
+    <div style="width: 1100px; height: 3000px; background-color: white; color: #22223b; padding: 20px; display: block; margin: auto; border-radius: 5px;">
+        
+        <h1><b> HTML Lists </b></h1>
+        <p> HTML lists allow web developers to group a set of related items in lists. </p>
+
+        <h2><b> Unordered Html Lists </b></h2>
+        <p> An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag. </p>
+        <p> The list items will be marked with <u>bullets</u> (small black circles) by default:</p>
+        <p style="color: red;"> 
+            &lt;ul&gt; <br>
+                &lt;li&gt; Coffee &lt;/li&gt; <br>
+                &lt;li&gt; Tea &lt;/li&gt; <br>
+                &lt;li&gt; Milk &lt;/li&gt; <br>
+            &lt;/ul&gt; <br>
+        </p>
+
+        <h2><b> Ordered Html Lists </b></h2>
+        <p> An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag. </p>
+        <p> The list items will be marked with <u>numbers</u> by default:</p>
+        <p style="color: red;"> 
+            &lt;ol&gt; <br>
+                &lt;li&gt; Coffee &lt;/li&gt; <br>
+                &lt;li&gt; Tea &lt;/li&gt; <br>
+                &lt;li&gt; Milk &lt;/li&gt; <br>
+            &lt;/ol&gt; <br>
+        </p>
+
+        <h2><b> Html Description Lists </b></h2>
+        <p> HTML also supports description lists. </p>
+        <p> A description list is a list of terms, with a description of each term. </p>
+        <p> The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the 
+        <br>term (name), and the &lt;dd&gt; tag describes each term:</p>
+        <p style="color: red;"> 
+            &lt;dl&gt; <br>
+                &lt;dt&gt; Coffee &lt;/dt&gt; <br>
+                &lt;dd&gt;- black hot drink &lt;/dd&gt; <br>
+                &lt;dt&gt; Milk &lt;/dt&gt; <br>
+                &lt;dd&gt;- white cold drink &lt;/dd&gt; <br>
+            &lt;/dl&gt; <br>
+        </p>
+        <br>
+
+        <iframe width="700" height="350" src="https://www.youtube.com/embed/-QuK8taGLCs?si=6jzUweVa-JQHUIjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: auto; border-radius: 5px;"></iframe>
+
+        <br>
+
+        <h1><b> HTML Tables </b></h1>
+        <p> HTML tables allow web developers to arrange data into rows and columns. </p>
+        <p> A table in HTML consists of table cells inside rows and columns. </p>
+        
+        <h2><b> Table Cells </b></h2>
+        <p> Each table cell is defined by a &lt;td&gt; and a &lt;/td&gt; tag. </p>
+        <p> td stands for table data. </p>
+        <p> Everything between &lt;td&gt; and &lt;/td&gt; is the content of a table cell. </p> 
+        <p style="color: red;"> 
+            &lt;table&gt; <br>
+                &lt;tr&gt; <br> 
+                    &lt;td&gt; Emil &lt;/td&gt; <br> 
+                    &lt;td&gt; Tobias &lt;/td&gt; <br>
+                    &lt;td&gt; Linus &lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+            &lt;/table&gt; <br>
+        </p>
+
+        <h2><b> Table Rows </b></h2>
+        <p> Each table row starts with a &lt;tr&gt; and ends with a &lt;/tr&gt; tag. </p>
+        <p> tr stands for table row. </p>
+        <p> You can have as many rows as you like in a table; just make sure that 
+        <br> the number of cells are the same in each row.</p>
+        <p style="color: red;"> 
+            &lt;table&gt; <br> 
+                &lt;tr&gt; <br> 
+                    &lt;td&gt; Emil &lt;/td&gt; <br> 
+                    &lt;td&gt; Tobias &lt;/td&gt; <br> 
+                    &lt;td&gt; Linus &lt;/td&gt; <br> 
+                &lt;/tr&gt; <br> 
+                &lt;tr&gt; <br> 
+                    &lt;td&gt; 16 &lt;/td&gt; <br> 
+                    &lt;td&gt; 14 &lt;/td&gt; <br> 
+                    &lt;td&gt; 10 &lt;/td&gt; <br> 
+                &lt;/tr&gt; <br> 
+            &lt;/table&gt; <br> 
+        </p>
+
+        <h2><b> Table Headers </b></h2>
+        <p> Sometimes you want your cells to be table header cells. 
+        <br> In those cases use the &lt;th&gt; tag instead of the &lt;td&gt; tag. </p> 
+        <p> th stands for table header. </p>
+        <p> By default, the text in &lt;th&gt; elements are bold and centered, 
+        <br> but you can change that with CSS. </p>
+        <p style="color: red;"> 
+            &lt;table&gt; <br> 
+                &lt;tr&gt; <br> 
+                    &lt;th&gt; Person 1 &lt;/th&gt; <br> 
+                    &lt;th&gt; Person 2 &lt;/th&gt; <br> 
+                    &lt;th&gt; Person 3 &lt;/th&gt; <br> 
+                &lt;/tr&gt; <br> 
+                &lt;tr&gt; <br> 
+                    &lt;td&gt; Emil &lt;/td&gt; <br> 
+                    &lt;td&gt; Tobias &lt;/td&gt; <br> 
+                    &lt;td&gt; Linus &lt;/td&gt; <br> 
+                &lt;/tr&gt; <br> 
+                &lt;tr&gt; <br> 
+                    &lt;td&gt; 16 &lt;/td&gt; <br> 
+                    &lt;td&gt; 14 &lt;/td&gt; <br> 
+                    &lt;td&gt; 10 &lt;/td&gt; <br> 
+                &lt;/tr&gt; <br> 
+            &lt;/table&gt; <br> 
+        </p>
+        <br> 
+        
+        <iframe width="700" height="350" src="https://www.youtube.com/embed/e62D-aayveY?si=Mep_Lt3jpUM4J9DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin:auto; border-radius: 5px;"></iframe> 
+        
+        <br>
+    </body>
+</html>
